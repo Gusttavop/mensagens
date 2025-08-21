@@ -5,7 +5,7 @@
     "externo": true,
     "aguardar": false,
     "etiqueta": "Suspeita de  LOS",
-    "etiqueta_externo": "Suspeita de LOS",
+    "etiqueta_externo": "Suspeita de  LOS",
     "servico": "Reparo Físico",
     "infra": "Fibra",
     "prioridade": 2
