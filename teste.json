@@ -1,15 +1,18 @@
 [
   {
-    "titulo": "Suspeita de LOS",
-    "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
-    "externo": true,
-    "aguardar": false,
-    "etiqueta": "Suspeita de LOS",
-    "etiqueta_externo": "Suspeita de  LOS",
-    "servico": "reparo físico",
-    "infra": "Fibra",
-    "prioridade": 2
-  },
+      "id": 36,
+      "filtro": ["FTTH"],
+      "nome": "Suspeita de LOS com valor",
+      "externo": true,
+      "aguardar": true,
+      "lembrete": false,
+      "etiquetaInterna": "Suspeita de LOS",
+      "etiquetaExterna": "Suspeita de  LOS",
+      "servicoExterno": "Reparo Físico",
+      "etiquetaInternaFallback": "Sem acesso",
+      "etiquetaExternaFallback": "Sem acesso",
+      "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente."
+    },
   {
     "titulo": "Suspeita de LOS com valor",
     "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
