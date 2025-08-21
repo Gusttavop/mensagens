@@ -1,18 +1,15 @@
 [
   {
-      "id": 36,
-      "filtro": ["FTTH"],
-      "nome": "Suspeita de LOS com valor",
-      "externo": true,
-      "aguardar": true,
-      "lembrete": false,
-      "etiquetaInterna": "Suspeita de LOS",
-      "etiquetaExterna": "Suspeita de  LOS",
-      "servicoExterno": "Reparo Físico",
-      "etiquetaInternaFallback": "Sem acesso",
-      "etiquetaExternaFallback": "Sem acesso",
-      "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente."
-    },
+    "titulo": "Rota Inoperante",
+    "mensagem": "Fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
+    "externo": false,
+    "aguardar": false,
+    "etiqueta": "Rota Inoperante - FTTH",
+    "etiqueta_externo": "Rota Inoperante - FTTH",
+    "servico": "Reparo Físico",
+    "infra": "Fibra",
+    "prioridade": 2
+  },
   {
     "titulo": "Suspeita de LOS com valor",
     "mensagem": "informou problemas de acesso e a presença de um LED vermelho piscando. Após confirmação, uma Ordem de Serviço foi gerada para realizar uma inspeção no local. O cliente está ciente da taxa de R$20,00, com a possibilidade de cobranças adicionais em caso de reparos. Agendado de acordo com a disponibilidade do cliente.",
@@ -25,12 +22,12 @@
     "prioridade": 1
   },
   {
-    "titulo": "Rota Inoperante",
-    "mensagem": "Fez contato para relatar a ausência de acesso. Foi explicado a ele que, naquele momento, a falta de acesso se deve a um rompimento de cabo de fibra que impactou toda a sua rota. Foi fornecido o prazo estimado pela URA para a regularização da situação. O cliente foi informado e está ciente dos detalhes.",
-    "externo": false,
+    "titulo": "Suspeita de LOS",
+    "mensagem": "Relatou a falta de acesso e a presença de um LED vermelho piscando. Ao questionar a possibilidade de incidentes ou remoção de equipamentos, o cliente negou qualquer ocorrência. Após constatar a normalidade da rota, foi gerada uma Ordem de Serviço (O.S.) para efetuar uma inspeção direta no local. Agendado de acordo com a disponibilidade do cliente.",
+    "externo": true,
     "aguardar": false,
-    "etiqueta": "Rota Inoperante - FTTH",
-    "etiqueta_externo": "Rota Inoperante - FTTH",
+    "etiqueta": "Suspeita de LOS",
+    "etiqueta_externo": "Suspeita de LOS",
     "servico": "Reparo Físico",
     "infra": "Fibra",
     "prioridade": 2
