@@ -5,7 +5,7 @@
     "externo": true,
     "aguardar": false,
     "etiqueta": "Suspeita de LOS",
-    "etiqueta_externo": "Suspeita de LOS (reparo físico)",
+    "etiqueta_externo": "Suspeita de LOS",
     "servico": "Reparo Físico",
     "infra": "Fibra",
     "prioridade": 2
@@ -104,7 +104,7 @@
     "externo": true,
     "aguardar": false,
     "etiqueta": "Pon apagada - FTTH",
-    "etiqueta_externo": "PON Apagada (reparo rápido)",
+    "etiqueta_externo": "PON Apagada",
     "servico": "Reparo Rápido",
     "infra": "Fibra",
     "prioridade": 1
